@@ -951,11 +951,18 @@ class Dog extends Animal {
 ![best dog ever](./assets/dog.jpg)
 
 ```javascript
+
 class Cat extends Animal {
     constructor(name, leastOffensiveHuman) {
         super(name);
         this.leastOffensiveHuman = leastOffensiveHuman;
-    } // Uncaught TypeError: destinyTheWhaleShark.whoIsTheHungriest is not a function
+    }
+     makeNoise() {
+        console.log('meow')
+    }
+}
+```
+
 ![angry-cat](./assets/angry-cat.jpg)
 
 ## References
